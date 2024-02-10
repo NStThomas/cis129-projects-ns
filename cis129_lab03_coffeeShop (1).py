@@ -86,7 +86,13 @@ W=float(bagels*B)
 # In[ ]:
 
 
-print('***************************************\nMy Coffee and Muffin Shop\nNumber of coffees bought?\n')
+print('***************************************\n')
+
+
+# In[ ]:
+
+
+print('My Coffee and Muffin Shop\nNumber of coffees bought?\n')
 
 
 # In[ ]:
