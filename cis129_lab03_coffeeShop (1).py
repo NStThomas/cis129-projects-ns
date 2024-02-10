@@ -1,9 +1,14 @@
 #Author: Nancy St Thomas
-#CIS129 Lab 3 Coffee Shop
+#CIS129 Lab 3 
+#Coffee Shop
 #C is a var of coffee cost; 
 #M is a var of muffin cost;
+#B is a var of Bagel cost;
+#t is a var of Tea cost;
 #X=number of coffee*cost;
 #Y=number of muffin*cost;
+#Z=number of Tea*cost;
+#W=number of Bagel*cost;
 #T=total tax,6%
 #F=final price(tax+subtotal)
 
@@ -18,6 +23,17 @@ C=5.00
 
 M=4.00
 
+
+# In[3]:
+
+
+B=4.00
+
+
+# In[4]:
+
+
+t=2.00
 
 # In[1]:
 
@@ -34,6 +50,18 @@ muffins=int(input("How many muffins would you like?"))
 # In[ ]:
 
 
+teas=int(input("How many teas would you like?"))
+
+
+# In[ ]:
+
+
+bagels=int(input("How many bagels would you like?"))
+
+
+# In[ ]:
+
+
 X=float(coffees*C)
 
 
@@ -41,6 +69,18 @@ X=float(coffees*C)
 
 
 Y=float(muffins*M)
+
+
+# In[ ]:
+
+
+Z=float(teas*t)
+
+
+# In[ ]:
+
+
+W=float(bagels*B)
 
 
 # In[ ]:
@@ -70,6 +110,30 @@ print(muffins)
 # In[ ]:
 
 
+print('Number of Teas bought?\n')
+
+
+# In[ ]:
+
+
+print(teas)
+
+
+# In[ ]:
+
+
+print('Number of Bagels bought?\n')
+
+
+# In[ ]:
+
+
+print(bagels)
+
+
+# In[ ]:
+
+
 print('***************************************\n\n***************************************')
 
 
@@ -94,7 +158,19 @@ print(muffins,'Muffin at $',int(M),'each: $',float(Y))
 # In[ ]:
 
 
-T=float(.06*(X+Y))
+print(teas,'Teas at $',int(t),'each: $',float(Z))
+
+
+# In[ ]:
+
+
+print(bagels,'Bagel at $',int(B),'each: $',float(W))
+
+
+# In[ ]:
+
+
+T=float(.06*(X+Y+Z+W))
 
 
 # In[ ]:
@@ -106,7 +182,7 @@ print('6% tax:%',float(T))
 # In[ ]:
 
 
-F=float(T+(X+Y))
+F=float(T+(X+Y+Z+W))
 
 
 # In[ ]:
