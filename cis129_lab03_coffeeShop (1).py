@@ -1,16 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 #C is a var of coffee cost; 
 #M is a var of muffin cost;
 #X=number of coffee*cost;
 #Y=number of muffin*cost;
 #T=total tax,6%
 #F=final price(tax+subtotal)
-
 
 # In[1]:
 
