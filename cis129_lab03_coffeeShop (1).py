@@ -1,3 +1,5 @@
+#Author: Nancy St Thomas
+#CIS129 Lab 3 Coffee Shop
 #C is a var of coffee cost; 
 #M is a var of muffin cost;
 #X=number of coffee*cost;
