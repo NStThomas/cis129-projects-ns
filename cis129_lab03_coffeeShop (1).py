@@ -201,5 +201,11 @@ print('---------\nTotal:$',float(F))
 # In[ ]:
 
 
+print('*Thank you for your visit,*\n*Please come agian soon!*')
+
+
+# In[ ]:
+
+
 print('***************************************')
 
