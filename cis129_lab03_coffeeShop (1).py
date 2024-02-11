@@ -153,25 +153,25 @@ print('My Coffee and Muffin Shop Receipt')
 # In[ ]:
 
 
-print(coffees,'Coffee at $',int(C),'each: $',float(X))
+print(coffees,'Coffee at $',int(C),'each: ${:.2f}'.format(X))
 
 
 # In[ ]:
 
 
-print(muffins,'Muffin at $',int(M),'each: $',float(Y))
+print(muffins,'Muffin at $',int(M),'each: ${:.2f}'.format(Y))
 
 
 # In[ ]:
 
 
-print(teas,'Teas at $',int(t),'each: $',float(Z))
+print(teas,'Teas at $',int(t),'each: ${:.2f}'.format(Z))
 
 
 # In[ ]:
 
 
-print(bagels,'Bagel at $',int(B),'each: $',float(W))
+print(bagels,'Bagel at $',int(B),'each: ${:.2f}'.format(W))
 
 
 # In[ ]:
@@ -183,7 +183,7 @@ T=float(.06*(X+Y+Z+W))
 # In[ ]:
 
 
-print('6% tax:%',float(T))
+print('6% tax:%{:.2f}'.format(T))
 
 
 # In[ ]:
@@ -195,7 +195,7 @@ F=float(T+(X+Y+Z+W))
 # In[ ]:
 
 
-print('---------\nTotal:$',float(F))
+print('---------\nTotal:${:.2f}'.format(F))
 
 
 # In[ ]:
